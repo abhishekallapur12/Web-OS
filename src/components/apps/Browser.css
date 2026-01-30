@@ -1,0 +1,63 @@
+/* Container styling */
+.acer-browser {
+  background: linear-gradient(145deg, #1e1e1e, #252525);
+  border: 2px solid #3cff00;
+  border-radius: 14px;
+  padding: 1rem;
+  max-width: 600px;
+  margin: auto;
+  box-shadow: 0 0 15px rgba(60, 255, 0, 0.4);
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+/* Header styling */
+.acer-header {
+  font-size: 1.2rem;
+  color: #3cff00;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid rgba(60, 255, 0, 0.3);
+}
+
+/* Wrap for Google CSE */
+.acer-search-box {
+  margin-top: 1rem;
+}
+
+/* Override Google CSE styles */
+.gsc-control-cse {
+  background-color: transparent !important;
+  border: none !important;
+}
+
+.gsc-search-box {
+  background: rgba(0, 0, 0, 0.5) !important;
+  border-radius: 8px !important;
+  padding: 0.3rem !important;
+}
+
+.gsc-input-box {
+  border: 2px solid #3cff00 !important;
+  border-radius: 8px !important;
+  background-color: #101010 !important;
+}
+
+input.gsc-input {
+  background-color: #101010 !important;
+  color: #fff !important;
+  font-size: 1rem !important;
+  padding: 0.4rem !important;
+}
+
+input.gsc-search-button {
+  background: #3cff00 !important;
+  color: #000 !important;
+  border-radius: 8px !important;
+  font-weight: bold;
+  transition: background 0.2s ease;
+}
+
+input.gsc-search-button:hover {
+  background: #2eb800 !important;
+}
